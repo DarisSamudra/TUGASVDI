@@ -1,0 +1,131 @@
+```
+Daris Samudra
+122450102
+RC
+Visualisasi Data dan Informasi
+Resume 1
+```
+Membuat visualisasi data lebih efisien dan efektif : survei
+
+Visualisasi data, yang mengubah abstrak menjadi visi fisik(misalnya panjang, posisi, bentuk,
+warna, dan sebagainya), merupakan sarana ampuh untuk menyajikan kisah data yang menarik
+kepada manusia yang lebih berorientasi visual. Visualisasi data sangat cocok untuk memberikan
+gambaran umum yang baik tentang data yang sangat besar, dan mempermudah hasil analisis data
+kepada ilmuwan data. Contoh : D3, Vega-lite, VizQL, Tableu, dan Microsoft Power BI.
+
+Alur visualisasi data, diantaranya :
+
+1. Import data, mengambil data yang diperlukan dari sumber data yang diinginkan
+2. Data preparation, mempersiapkan data yang diimport untuk visualisasi, misalnya dengan
+    normalisasi nilai, koreksi entri yang salah dan interpolasi nilai yang hilang.
+3. Data Manipulation, memilih data yang akan divisualisasikan(alias memfilter dari
+    komunitas visualisasi) dan mungkin dengan operasi umum launnya seperti penggabungan
+    dan pengkelompokan.
+4. Mapping, memetakan data yang diperoleh dari proses di atas ke dalam geometri primitif
+    (misalnya titik dan garis), beserta atributnya (misalnya warna, posisi dan ukuran).
+5. Rendering, Mengubah data geometri di atas menjadi representasi visual
+
+Spesifikasi Visualisasi Data
+Secara umum, bahasa visualisasi data terdiri dari tiga bagian diantaranya. : data, tanda (atau
+isyarat visual), dan pemetaan di antara keduanya.
+a. Tanggal
+
+- Catatan : data yang perlu divisualisasikan
+- Transformasi : operasi-seperti grup,bin,filter, dan penguruan digunakan untuk
+    mengubah rekaman data tertentu
+b. Tanda(atau isyarat visual)
+- Tipe : Represntasi visual untuk rekaman data, seperti barang, garis, atau titik
+- Ukuran : Lebar, tinggi visualisasi
+- Legenda : Informasi legenda
+- Lain-lain : Properti lainnya, misalnya lebar dan warna batang
+c. Pemetaan
+- Memetakan data ke tanda yang sesuai
+
+Kategori bahasa visualisasi data
+Strategi yang umum digunakan untuk mengkategorikan bahasa visualisasi data didasarkan pada
+ekspresifnya, semakin rendah tingkat suatu bahasa, semakin ekspresifnya. Bahasa tingkat yang
+lebih tinggi merangkum beberapa detail tingkat rendah dengan memberikan default sensitif dan
+menambahkan lebih banyak batasan (misalnya, Excel [9] menyediakan templat untuk visualisasi
+yang didukung). Dimensi lain untuk memahami berbagai tingkat spesifikasi visualisasi bahasa
+
+
+adalah melalui aksesibilitasnya (atau kemudahan penggunaannya): semakin tinggi tingkat
+bahasanya, semakin mudah digunakan.
+
+Bahasa Tingkat rendah
+Sebagai bahasa yang pengguna perlukan untuk menentukan semua elemen pemetaan. Prefuse
+dan Flare adalah perpustakaan visualisasi berbasis Java; mereka merangkum item visual sebagai
+kelas Java, yang memiliki banyak atribut visual, dan bahasa memetakan data ke atribut visual ini
+dengan mengatur fungsi yang telah ditentukan sebelumnya. Proto-vis adalah perangkat grafis
+berbasis JavaScript deklaratif; ia menggunakan tanda grafis sederhana (batang, area, garis, dll.)
+dengan atribut visual tertentu. D3 merupakan pengembangan dari Protovis dan lebih efektif
+dalam menangani interaksi pengguna (misalnya menyikat gigi dan menghubungkan). Vega dan
+Reaktif Vega mirip dengan Protovis dan D3, tetapi mereka menyediakan tata bahasa interaksi
+deklaratif yang dapat disusun.
+
+Bahasa Tingkat tinggi
+merangkum detail konstruksi visualisasi, seperti fungsi pemetaan, serta beberapa properti untuk
+tanda seperti kanvas ukuran, legenda, dan properti lainnya.
+
+Pendekatkan efisien untuk visualisasi data
+
+1. Visualisasi data yang tepat
+    Terjemahan Kueri Cara alami untuk menggunakan kembali banyak sistem yang sudah
+    matang (DBMS) adalah dengan menerjemahkan kueri visualisasi ke kueri yang diterima
+    sistem tersebut.
+2. Mengintegrasikan Sistem Visualisasi dengan DBMS
+    Meskipun menggunakan terjemahan kueri adalah hal yang wajar, ada beberapa
+    kelemahan. Salah satu masalah utamanya adalah banyaknya fungsi yang diulang,
+    sehingga menghasilkan teknik optimasi yang tidak terpadu dengan asumsi dan kinerja
+    yang berbeda di server (yaitu, sisi database) dan klien (yaitu, sisi visualisasi).
+3. Kolom menyimpan, dalam pengelolaan data, kinerja kunci faktornya adalah tata letak
+    data.
+4. Indeks, untuk meningkatkan kinerja pencariaan dengan mengurangi jumlah catatan/baris
+    dalam tabel yang perlu diperiksa
+5. Komputasi paralel, untuk pemrosesan query dalam sistem visualisasi data.
+6. Prediksi dan pengambilan awal, salah satu langkah penting dalam visualisasi data adalah
+    eksplorasi data.
+Perkiraan visualisasi data
+Ketika volume data tumbuh secara eksponensial data tradisional modul pemrosesan tidak dapat
+memberikan hasil pemrosesan interaktif yang cepat. Untuk menjembatani kesenjangan antara
+volume data dan interaktivitas, banyak pekerjaan mempercepat fase pemrosesan data dengan
+memanfaatkan perkiraan pemrosesan kueri (AQP) yang memberikan perkiraan hasil visualisasi.
+Berbasis AQP Cara mudah untuk menghasilkan perkiraan visualisasi dalam waktu interaktif
+adalah dengan memanfaatkan teknik AQP. Menggunakan subset representatif dari data dapat
+memberikan perkiraan visualisasi kepada pengguna interaksi online dengan mengorbankan
+kualitas.
+
+Rekomendasi Visualisasi Data
+
+
+```
+a. Rekomendasi berbasis spesifikasi membantu pengguna untuk menghasilkan visualisasi
+secara otomatis berdasarkan spesifikasi yang tidak lengkap berbasis aturan atau
+pembelajaran mesin.
+b. Rekomendasi Berbasis Perilaku Sistem ini melacak bagaimana pengguna berinteraksi
+dengan visualisasi
+c. Rekomendasi yang dipersonalisasi Menyesuaikan saran visualisasi berdasarkan
+preferensi pengguna, interaksi sebelumnya dan di mana mereka bekerja. pengguna untuk
+visualisasi yang diinginkan.
+```
+Tantangan dan Arah Masa Depan
+
+- Skalabilitas : Memastikan bahwa alat visualisasi dapat menangani data dengan efisien,
+    terutama dengan data real-time.
+- Interaktifitas : Pengguna mengharapkan kemampuan visualisasi secara real-time seperti
+    menggali detail lebih dalam atau memfilter data secara langsung. Untuk itu, diperlukan
+    kemajuan signifikan dalam perangkat lunak dan perangkat keras.
+- Pengalam. an Pengguna : Mempermudah penggunaan alat-alat visualisasi ini harus
+    dilakukan dalam rangka mencapai kepuasan bagi pengguna, sehingga akan meningkatkan
+    adopsi
+- Otomatisasi : Otomatisasi alat dalam mengerjakan banyak tugas yang terlibat, sangat
+    diperlukan melalui pembelajaran mesin serta kecerdasan buatan.
+
+X`Kesimpulan
+
+```
+Visualisasi data adalah alat penting dalam lanskap data modern, memungkinkan pengguna
+untuk memahami dataset yang besar dan kompleks. Artikel ini menekankan pentingnya
+mengembangkan teknik yang membuat visualisasi data lebih efisien dan efektif, terutama
+dalam hal spesifikasi visualisasi, pendekatan pemrosesan, dan sistem rekomendasi.
+```
