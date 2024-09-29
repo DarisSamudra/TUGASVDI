@@ -10,7 +10,7 @@ Prinsip Emphasis: Tidak ada bagian yang benar-benar menonjol. Semua elemen terli
 ![piechart bad](https://github.com/user-attachments/assets/954e9050-97b2-46f3-a910-51af24552cad)
 
 
-3. 3D Bar Chart
+2. 3D Bar Chart
 Alasan:
 Prinsip Clarity: Visualisasi ini membuat data sulit dipahami karena perspektif 3D yang mengganggu pembacaan akurat nilai dari setiap bar.
 Prinsip Simplicity: Komplikasi dari 3D membuat visualisasi lebih sulit untuk diinterpretasi dibandingkan bar chart 2D sederhana.
