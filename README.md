@@ -6,6 +6,7 @@ Prinsip Clarity: Pie chart ini sulit dibaca karena terlalu banyak kategori denga
 Prinsip Simplicity: Penggunaan terlalu banyak warna dan data membuat visualisasi ini tidak sederhana dan malah membingungkan.
 Prinsip Alignment: Tidak ada tata letak yang rapi, urutan kategori tidak jelas dan tidak membantu dalam membandingkan nilai data.
 Prinsip Emphasis: Tidak ada bagian yang benar-benar menonjol. Semua elemen terlihat sama pentingnya sehingga tidak ada fokus utama.
+
 ![piechart bad](https://github.com/user-attachments/assets/954e9050-97b2-46f3-a910-51af24552cad)
 3. 3D Bar Chart
 Alasan:
