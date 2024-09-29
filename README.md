@@ -1,5 +1,6 @@
-#DarisSamudra-122450102-
-Contoh Visualisasi Bad:
+#DarisSamudra-122450102-VDI2
+
+#Contoh Visualisasi Bad:
 1. Pie Chart dengan Terlalu Banyak Kategori
 Alasan:
 Prinsip Clarity: Pie chart ini sulit dibaca karena terlalu banyak kategori dengan ukuran slice yang sangat kecil, sehingga pengguna kesulitan membedakan antar bagian.
