@@ -5,7 +5,7 @@
  
 Tujuan: Menyajikan visualisasi data untuk mengidentifikasi distribusi parameter kesehatan (misalnya Umur) pada pasien diabetes dan normal, serta melihat pola atau perbedaan antara kelompok tersebut.
 
-User: Dokter, peneliti kesehatan, atau profesional di bidang kesehatan yang ingin memahami faktor risiko diabetes berdasarkan parameter klinis pasien.
+User: Praktikan di bidang kesehatan yang ingin memahami faktor risiko diabetes berdasarkan parameter umur pasien.
 
 Fungsi: Membantu user untuk menganalisis data pasien untuk mengidentifikasi pola yang berkaitan dengan diabetes, sehingga bisa digunakan untuk pengambilan keputusan klinis atau riset lebih lanjut.
 
